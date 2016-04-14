@@ -10,8 +10,6 @@ Simulates a bad TV via horizontal distortion and vertical roll. Uses Ashima WebG
 
 [View Demo](http://felixturner.github.io/bad-tv-shader/example/)
 
-TBD
-
 ## Uniforms
 * **time** steadily increasing float passed in
 * **distortion** amount of thick distortion
