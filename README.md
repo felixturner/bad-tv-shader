@@ -1,8 +1,6 @@
-# bad-tv-shader
+# BadTV Shader for Three.js
 
-### BadTV Shader for Three.js
-
-Simulates a bad TV via horizontal distortion and vertical roll. Uses Ashima WebGl Noise: https://github.com/ashima/webgl-noise
+Simulates a bad TV via horizontal distortion and vertical roll. Uses Ashima WebGL Noise: https://github.com/ashima/webgl-noise
 
 ## Screenshot
 
@@ -20,7 +18,7 @@ TBD
 * **rollSpeed** vertical roll speed
 
 
-### Usage ### 
+## Usage
 
 View example for full usage details.
 
