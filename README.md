@@ -6,7 +6,9 @@ Simulates a bad TV via horizontal distortion and vertical roll. Uses Ashima WebG
 
 ![screenshot.jpg](https://raw.githubusercontent.com/felixturner/bad-tv-shader/master/example/res/screenshot.jpg)
 
-## Example
+## Demo
+
+[View Demo](http://felixturner.github.io/bad-tv-shader/example/)
 
 TBD
 
