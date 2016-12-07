@@ -35,8 +35,11 @@
  * THE SOFTWARE.
  * 
  */
+(function(root) {
 
-THREE.BadTVShader = {
+var THREE = root.THREE || require('three');
+
+var BadTVShader = THREE.BadTVShader = {
 	uniforms: {
 		"tDiffuse": 	{ type: "t", value: null },
 		"time": 		{ type: "f", value: 0.0 },
@@ -135,3 +138,12 @@ THREE.BadTVShader = {
 	].join("\n")
 
 };
+
+if (typeof exports !== 'undefined') {
+	if (typeof module !== 'undefined' && module.exports) {
+		exports = module.exports = BadTVShader;
+	}
+	exports.BadTVShader = BadTVShader;
+}
+
+}(this));
