@@ -1,6 +1,6 @@
 # Bad TV Shader for Three.js
 
-Simulates a bad TV via horizontal distortion and vertical roll. Uses Ashima WebGL Noise: https://github.com/ashima/webgl-noise
+Simulates a bad TV via horizontal distortion and vertical roll. 
 
 ## Screenshot
 
@@ -29,7 +29,11 @@ composer.addPass( badTVPass );
 badTVPass.renderToScreen = true;
 ```
 
-View example for full usage details.
+View demo for full usage details.
+
+## Credits
+
+Uses [Ashima WebGL Noise](https://github.com/ashima/webgl-noise), [three.js](https://github.com/mrdoob/three.js/)
 
 ## License
 
