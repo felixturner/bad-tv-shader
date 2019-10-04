@@ -1,0 +1,26 @@
+{
+  "name": "bad-tv-shader",
+  "version": "0.0.0",
+  "description": "Simulates a bad TV via horizontal distortion and vertical roll.",
+  "main": "BadTVShader.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felixturner/bad-tv-shader.git"
+  },
+  "keywords": [
+    "three.js",
+    "three",
+    "shader",
+    "webgl",
+    "tv"
+  ],
+  "author": "felixturner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixturner/bad-tv-shader/issues"
+  },
+  "homepage": "https://github.com/felixturner/bad-tv-shader#readme",
+  "dependencies": {
+    "three": "^0.82.1"
+  }
+}
